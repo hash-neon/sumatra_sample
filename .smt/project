@@ -1,0 +1,33 @@
+{
+  "default_executable": null, 
+  "default_repository": {
+    "url": "/home/harsh/sample_project", 
+    "type": "sumatra.versioncontrol._mercurial.MercurialRepository", 
+    "upstream": null
+  }, 
+  "name": "sample", 
+  "input_datastore": {
+    "root": "/", 
+    "type": "sumatra.datastore.filesystem.FileSystemDataStore"
+  }, 
+  "default_launch_mode": {
+    "working_directory": "/home/harsh/sample_project", 
+    "type": "sumatra.launch.SerialLaunchMode"
+  }, 
+  "record_store": {
+    "db_file": "/home/harsh/sample_project/.smt/records", 
+    "type": "sumatra.recordstore.django_store.DjangoRecordStore"
+  }, 
+  "data_store": {
+    "root": "./Data", 
+    "type": "sumatra.datastore.filesystem.FileSystemDataStore"
+  }, 
+  "on_changed": "error", 
+  "data_label": null, 
+  "default_main_file": null, 
+  "label_generator": "timestamp", 
+  "_most_recent": null, 
+  "sumatra_version": "0.6.0dev", 
+  "timestamp_format": "%Y%m%d-%H%M%S", 
+  "description": ""
+}
